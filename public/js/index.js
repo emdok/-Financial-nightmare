@@ -136,6 +136,7 @@ function sendTransaction(isAdding) {
   })
   .catch(err => {
     // fetch failed, so save in indexed db
+    console.log(err);
     saveRecord(transaction);
 
     // clear form
@@ -151,3 +152,4 @@ document.querySelector("#add-btn").onclick = function() {
 document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
 };
+
