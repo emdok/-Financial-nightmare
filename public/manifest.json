@@ -1,6 +1,4 @@
 {
-  "name": "Financial Nightmare",
-  "short_name": "Nightmare",
   "icons": [
     {
       "src": "icons/icon-72x72.png",
@@ -43,6 +41,8 @@
       "type": "image/png"
     }
   ],
+  "name": "Financial Nightmare",
+  "short_name": "Nightmare",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "start_url": "/",
